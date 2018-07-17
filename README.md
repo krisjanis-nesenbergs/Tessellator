@@ -112,7 +112,7 @@ from tessellator import Tessellator
 
 ```python
 # Bounding box for A4 page
-bound = LinearRing([[0,0],[21,0],[21,29.7], [0,29.7]])
+bound = [[0,0],[21,0],[21,29.7], [0,29.7]]
 # Selection of specific algorithm
 alg_no = 0
 
